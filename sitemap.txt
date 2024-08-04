@@ -21,8 +21,8 @@ https://www.重装小兔.icu/live2d-widget/waifu-tips.json
 https://www.重装小兔.icu/live2d-widget/demo/demo.html
 https://www.重装小兔.icu/live2d-widget/demo/login.html
 https://www.重装小兔.icu/
-https://www.重装小兔.icu/categories/Windows/
 https://www.重装小兔.icu/categories/qsign/
+https://www.重装小兔.icu/categories/Windows/
 https://www.重装小兔.icu/categories/QQBot/
 https://www.重装小兔.icu/categories/Linux/
 https://www.重装小兔.icu/categories/Windows/WSL/
