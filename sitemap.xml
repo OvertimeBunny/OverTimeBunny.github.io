@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.重装小兔.icu/2024/05/09/%E4%BD%BF%E7%94%A8Termux%E6%90%AD%E5%BB%BA%E4%BA%91%E5%B4%BD/</loc>
+    
+    <lastmod>2024-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.重装小兔.icu/2024/05/08/WSL%E6%90%AD%E5%BB%BA%E4%BA%91%E5%B4%BD/</loc>
     
     <lastmod>2024-08-04</lastmod>
@@ -59,15 +68,6 @@
     <loc>https://www.重装小兔.icu/2024/05/08/MYSY%E6%90%AD%E5%BB%BA%E4%BA%91%E5%B4%BD-Windows/</loc>
     
     <lastmod>2024-08-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.重装小兔.icu/2024/05/09/%E4%BD%BF%E7%94%A8Termux%E6%90%AD%E5%BB%BA%E4%BA%91%E5%B4%BD/</loc>
-    
-    <lastmod>2024-08-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/live2d-widget/demo/login.html</loc>
+    <loc>https://www.重装小兔.icu/live2d-widget/demo/demo.html</loc>
     
     <lastmod>2022-11-12</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/live2d-widget/demo/demo.html</loc>
+    <loc>https://www.重装小兔.icu/live2d-widget/demo/login.html</loc>
     
     <lastmod>2022-11-12</lastmod>
     
@@ -211,13 +211,6 @@
 
   
   <url>
-    <loc>https://www.重装小兔.icu/categories/Windows/</loc>
-    <lastmod>2024-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.重装小兔.icu/categories/qsign/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -225,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/categories/Windows/Hype-v/</loc>
+    <loc>https://www.重装小兔.icu/categories/Windows/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -239,20 +232,6 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/categories/Linux/</loc>
-    <lastmod>2024-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.重装小兔.icu/categories/Windows/WSL/</loc>
-    <lastmod>2024-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.重装小兔.icu/categories/Termux/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -260,14 +239,14 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/categories/%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://www.重装小兔.icu/categories/Windows/Hype-v/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/categories/Termux/%E5%AE%89%E5%8D%93/</loc>
+    <loc>https://www.重装小兔.icu/categories/Linux/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -281,7 +260,21 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%8D%90/</loc>
+    <loc>https://www.重装小兔.icu/categories/Windows/WSL/</loc>
+    <lastmod>2024-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.重装小兔.icu/categories/Termux/%E5%AE%89%E5%8D%93/</loc>
+    <lastmod>2024-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.重装小兔.icu/categories/%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -289,6 +282,13 @@
   
   <url>
     <loc>https://www.重装小兔.icu/categories/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/</loc>
+    <lastmod>2024-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.重装小兔.icu/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2024-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
