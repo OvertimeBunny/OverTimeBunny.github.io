@@ -6,7 +6,7 @@
   <link href="https://www.重装小兔.icu/atom.xml" rel="self"/>
   
   <link href="https://www.重装小兔.icu/"/>
-  <updated>2024-08-05T02:15:12.593Z</updated>
+  <updated>2024-08-05T04:03:37.668Z</updated>
   <id>https://www.重装小兔.icu/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo添加博客更新提示</title>
+    <link href="https://www.重装小兔.icu/Hexo%E6%B7%BB%E5%8A%A0%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0%E6%8F%90%E7%A4%BA/"/>
+    <id>https://www.重装小兔.icu/Hexo%E6%B7%BB%E5%8A%A0%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0%E6%8F%90%E7%A4%BA/</id>
+    <published>2024-08-05T04:03:24.615Z</published>
+    <updated>2024-08-05T04:03:37.668Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="基于插件hexo-offline-popup实现"><a href="#基于插件hexo-offline-popup实现" class="headerlink" title="基于插件hexo-offline-popup实现"></a>基于插件hexo-offline-popup实现</h1><h2 id="先安装插件"><a href="#先安装插件" class="headerlink" title="先安装插件"></a>先安装插件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-offline-popup --save</span><br></pre></td></tr></table></figure><h3 id="该插件本来是配合PWA加快博客访问速度的，但是下载配置后，每当你更新后都会提示"><a href="#该插件本来是配合PWA加快博客访问速度的，但是下载配置后，每当你更新后都会提示" class="headerlink" title="该插件本来是配合PWA加快博客访问速度的，但是下载配置后，每当你更新后都会提示"></a>该插件本来是配合PWA加快博客访问速度的，但是下载配置后，每当你更新后都会提示</h3><p><img src="/img/Hexo/3.png" alt=""></p><h2 id="所以，找到它，修改这个提示文本即可"><a href="#所以，找到它，修改这个提示文本即可" class="headerlink" title="所以，找到它，修改这个提示文本即可"></a>所以，找到它，修改这个提示文本即可</h2><h2 id="修改hexo-offline-popup的源代码："><a href="#修改hexo-offline-popup的源代码：" class="headerlink" title="修改hexo-offline-popup的源代码："></a>修改hexo-offline-popup的源代码：</h2><h3 id="blog-demo-node-modules-hexo-offline-popup-lib-templates-sw-register-tpl-js"><a href="#blog-demo-node-modules-hexo-offline-popup-lib-templates-sw-register-tpl-js" class="headerlink" title="blog-demo\node_modules\hexo-offline-popup\lib\templates\sw-register.tpl.js"></a>blog-demo\node_modules\hexo-offline-popup\lib\templates\sw-register.tpl.js</h3><p><strong>打开后你会发现是一长串的东西，别慌，找工具转译一下，你会发现是一份普普通通的JS</strong></p><p><strong>之后修改这份JS，然后再转译回去就行了（不转貌似也行，但是不稳定，有时候会出现乱码）</strong></p><h3 id="这是我转译后修改的结果："><a href="#这是我转译后修改的结果：" class="headerlink" title="这是我转译后修改的结果："></a><strong>这是我转译后修改的结果：</strong></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">navigator.serviceWorker&amp;&amp;navigator.serviceWorker.register(&#x27;/__ServiceWorkerName__?v=__BuildVersion__&#x27;).then(function()&#123;navigator.serviceWorker.addEventListener(&#x27;message&#x27;,function(a)&#123;if(&#x27;sw.update&#x27;===a.data)&#123;let a=document.querySelector(&#x27;meta[name=theme-color]&#x27;),b=document.createElement(&#x27;div&#x27;);a&amp;&amp;(a.content=&#x27;#000&#x27;),b.innerHTML=&#x27;&lt;div&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/Colsrch/CDN/hexo-offline-popup.css&quot;&gt;&lt;div class=&quot;c-message animated animated-lento slideInRight&quot;&gt;&lt;i class=&quot;c-message--icon c-message--success&quot;&gt;&lt;/i&gt;&lt;div class=&quot;el-notification__group&quot;&gt;&lt;h2 class=&quot;c-message__title&quot;&gt;更新通知&lt;/h2&gt;&lt;div class=&quot;el-notification__content&quot;&gt;小兔已更新博客内容，请刷新看看吧~&lt;/div&gt;&lt;div class=&quot;c-message--close&quot; onclick=&quot;location.reload()&quot;&gt;×&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&#x27;,document.body.appendChild(b),setTimeout(function()&#123;document.getElementById(&#x27;app-refresh&#x27;).className+=&#x27; app-refresh-show&#x27;&#125;,16)&#125;&#125;)&#125;);</span><br></pre></td></tr></table></figure><p><img src="/img/Hexo/2.png" alt=""></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://www.重装小兔.icu/categories/Hexo/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Hexo添加文章开屏弹窗</title>
