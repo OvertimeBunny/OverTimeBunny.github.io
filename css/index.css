@@ -2375,15 +2375,6 @@ figure.highlight pre .javascript .function {
   -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.3);
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
-.butterfly-flink-list .flink-list-item:hover .flink-item-icon {
-  width: 60px;
-  height: 60px;
-  margin-left: 0;
-}
-.butterfly-flink-list .flink-list-item:hover .flink-item-name,
-.butterfly-flink-list .flink-list-item:hover .flink-item-desc {
-  color: var(--anzhiyu-white);
-}
 .butterfly-flink-list .flink-list-item a {
   color: var(--font-color);
   text-decoration: none;
@@ -2405,34 +2396,10 @@ figure.highlight pre .javascript .function {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -o-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
   width: 100%;
   height: 100%;
 }
-.butterfly-flink-list .flink-list-item a .flink-item-icon {
-  float: none;
-  overflow: hidden;
-  margin: 0;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: var(--anzhiyu-background);
-  overflow: hidden;
-}
-.butterfly-flink-list .flink-list-item a .flink-item-icon img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.butterfly-flink-list .flink-list-item a .img-alt {
-  display: none;
-}
-.butterfly-flink-list .flink-item-info {
+.butterfly-flink-list .flink-list-item a .flink-item-info {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -2457,26 +2424,58 @@ figure.highlight pre .javascript .function {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.butterfly-flink-list .flink-item-info .flink-item-name {
+.butterfly-flink-list .flink-list-item a .flink-item-info .flink-item-name {
   font-weight: bold;
   font-size: 1.2em;
   color: var(--anzhiyu-fontcolor);
-  white-space: nowrap;
-  overflow: hidden;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
+  text-align: center;
   margin-bottom: 0.5rem;
 }
-.butterfly-flink-list .flink-item-info .flink-item-desc {
+.butterfly-flink-list .flink-list-item a .flink-item-info .flink-item-desc {
   font-size: 0.93em;
   opacity: 0.7;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
   filter: alpha(opacity=70);
   color: var(--anzhiyu-fontcolor);
+  text-align: center;
   white-space: nowrap;
   overflow: hidden;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
+}
+.butterfly-flink-list .flink-list-item a .flink-item-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--anzhiyu-background);
+  overflow: hidden;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.butterfly-flink-list .flink-list-item a .flink-item-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .flexcard-flink-list {
   overflow: hidden;

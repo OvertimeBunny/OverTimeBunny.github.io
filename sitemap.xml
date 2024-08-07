@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/posts/48ced98/</loc>
+    <loc>https://www.重装小兔.icu/posts/beeac218/</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/posts/beeac218/</loc>
+    <loc>https://www.重装小兔.icu/posts/48ced98/</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/posts/70f38985/</loc>
+    <loc>https://www.重装小兔.icu/posts/a806c713/</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/posts/a806c713/</loc>
+    <loc>https://www.重装小兔.icu/posts/70f38985/</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/posts/9e1e9509/</loc>
+    <loc>https://www.重装小兔.icu/posts/3e101a1c/</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/posts/3e101a1c/</loc>
+    <loc>https://www.重装小兔.icu/posts/9e1e9509/</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/live2d-widget/package.json</loc>
+    <loc>https://www.重装小兔.icu/live2d-widget/README</loc>
     
     <lastmod>2022-11-12</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/live2d-widget/README</loc>
+    <loc>https://www.重装小兔.icu/live2d-widget/package.json</loc>
     
     <lastmod>2022-11-12</lastmod>
     
@@ -280,6 +280,13 @@
   </url>
   
   <url>
+    <loc>https://www.重装小兔.icu/categories/%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.重装小兔.icu/categories/Windows/Hype-v/</loc>
     <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -302,13 +309,6 @@
   
   <url>
     <loc>https://www.重装小兔.icu/categories/Termux/%E5%AE%89%E5%8D%93/</loc>
-    <lastmod>2024-08-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.重装小兔.icu/categories/%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
