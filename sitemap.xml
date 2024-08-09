@@ -38,15 +38,6 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/posts/4d0f8001/</loc>
-    
-    <lastmod>2024-08-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.重装小兔.icu/posts/e66f6c3/</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -65,6 +56,15 @@
   </url>
   
   <url>
+    <loc>https://www.重装小兔.icu/posts/4d0f8001/</loc>
+    
+    <lastmod>2024-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.重装小兔.icu/posts/7949d787/</loc>
     
     <lastmod>2024-08-06</lastmod>
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/posts/70f38985/</loc>
+    <loc>https://www.重装小兔.icu/posts/53427649/</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/posts/53427649/</loc>
+    <loc>https://www.重装小兔.icu/posts/70f38985/</loc>
     
     <lastmod>2024-08-06</lastmod>
     
@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/live2d-widget/demo/demo</loc>
+    <loc>https://www.重装小兔.icu/live2d-widget/demo/login</loc>
     
     <lastmod>2022-11-12</lastmod>
     
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/live2d-widget/demo/login</loc>
+    <loc>https://www.重装小兔.icu/live2d-widget/demo/demo</loc>
     
     <lastmod>2022-11-12</lastmod>
     
@@ -266,13 +266,6 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/categories/Windows/WSL/</loc>
-    <lastmod>2024-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.重装小兔.icu/categories/Linux/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -280,7 +273,7 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/categories/qsign/%E5%AE%89%E5%8D%93/</loc>
+    <loc>https://www.重装小兔.icu/categories/Termux/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -294,7 +287,14 @@
   </url>
   
   <url>
-    <loc>https://www.重装小兔.icu/categories/Termux/</loc>
+    <loc>https://www.重装小兔.icu/categories/qsign/%E5%AE%89%E5%8D%93/</loc>
+    <lastmod>2024-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.重装小兔.icu/categories/Windows/WSL/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
